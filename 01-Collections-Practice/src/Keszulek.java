@@ -14,4 +14,8 @@ public abstract class Keszulek {
         public int getAr() {
                 return ar;
         }
+
+        public String toString() {
+                return "Gyártó: " + getGyarto() + " Ára: " + getAr() + " Forint";
+        }
 }
