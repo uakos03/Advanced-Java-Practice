@@ -8,6 +8,13 @@ public class RaktarTeszt {
         List<OkosTV> tvLista = new ArrayList<>();
         ellenorzottBeolvasas(tvLista);
         kiIratas(tvLista);
+        int tvDB = tvLista.size();
+        System.out.println(tvDB);
+        OkosTV legdragabb = legdragabbTV(tvLista);
+        System.out.println(legdragabb);
+
+
+
 
 
     }
@@ -55,4 +62,14 @@ public class RaktarTeszt {
             System.out.println(elem);
         }
     }
+    public static OkosTV legdragabbTV (List<OkosTV> lista) {
+        OkosTV max = lista.get(0);
+        for (int i = 0; i < lista.size(); i++) {
+            if (max.getAr() < lista.get(i).getAr()) {
+                max = lista.get(i);
+            }
+        }
+            return max;
+    }
+
 }
