@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class RaktarTeszt {
     public static void main(String[] args) {
@@ -12,6 +10,8 @@ public class RaktarTeszt {
         System.out.println(tvDB);
         OkosTV legdragabb = legdragabbTV(tvLista);
         System.out.println(legdragabb);
+
+        Map<String, OkosTV> raktar = new HashMap<>();
 
 
 
