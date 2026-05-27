@@ -21,6 +21,8 @@ public class RaktarTeszt {
     public static void ellenorzottBeolvasas(List<OkosTV> lista) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Beolvasó rendszer!");
+        //Map
+        
 
         while (true) {
             System.out.println("Add meg a gyártó nevét: (vagy kilépéshez: X)");
