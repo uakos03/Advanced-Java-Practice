@@ -22,7 +22,9 @@ public class RaktarTeszt {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Beolvasó rendszer!");
         //Map
-        
+        //Map hozzaadasa!
+
+
 
         while (true) {
             System.out.println("Add meg a gyártó nevét: (vagy kilépéshez: X)");
