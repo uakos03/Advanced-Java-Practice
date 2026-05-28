@@ -12,6 +12,9 @@ public class RaktarTeszt {
         System.out.println(legdragabb);
 
         Map<String, OkosTV> raktar = new HashMap<>();
+        Map<String, OkosTV> raktar2 = new HashMap<>();
+
+        
 
 
 
