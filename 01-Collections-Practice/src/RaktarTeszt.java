@@ -12,7 +12,9 @@ public class RaktarTeszt {
         System.out.println(legdragabb);
 
         Map<String, OkosTV> raktar = new HashMap<>();
+        //HashMap
 
+        
 
 
 
@@ -21,7 +23,6 @@ public class RaktarTeszt {
     public static void ellenorzottBeolvasas(List<OkosTV> lista) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Beolvasó rendszer!");
-       //Map-et ide
 
 
 
