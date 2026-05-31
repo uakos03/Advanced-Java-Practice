@@ -12,9 +12,17 @@ public class RaktarTeszt {
         System.out.println(legdragabb);
 
         Map<String, OkosTV> raktar = new HashMap<>();
-        //HashMap
+        //HashMap hozzadva
 
-        
+
+
+        //Hash ide majd
+
+
+
+
+
+
 
 
 
@@ -76,5 +84,7 @@ public class RaktarTeszt {
         }
             return max;
     }
+
+    //kesz!
 
 }
