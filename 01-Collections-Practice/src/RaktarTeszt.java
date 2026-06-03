@@ -12,21 +12,8 @@ public class RaktarTeszt {
         System.out.println(legdragabb);
 
         Map<String, OkosTV> raktar = new HashMap<>();
-        //HashMap hozzadva
-
-
-
-        //Hash ide majd
-
-
-
-
-
-
-
-
-
-
+        //HashMap hozzadasa majd ide!!
+        
     }
     public static void ellenorzottBeolvasas(List<OkosTV> lista) {
         Scanner scanner = new Scanner(System.in);
@@ -84,7 +71,4 @@ public class RaktarTeszt {
         }
             return max;
     }
-
-    //kesz!
-
 }
