@@ -10,7 +10,8 @@ public class RaktarTeszt {
         System.out.println(tvDB);
         OkosTV legdragabb = legdragabbTV(tvLista);
         System.out.println(legdragabb);
-        keresesVonalkodAlapjan(raktar);
+        keresesVonalkodAlapjan(raktar);//Hash hozzaadva mainhez
+        
 
 
     }
