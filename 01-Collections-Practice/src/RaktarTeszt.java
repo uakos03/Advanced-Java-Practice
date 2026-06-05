@@ -10,10 +10,8 @@ public class RaktarTeszt {
         System.out.println(tvDB);
         OkosTV legdragabb = legdragabbTV(tvLista);
         System.out.println(legdragabb);
-        keresesVonalkodAlapjan(raktar);//Hash hozzaadva mainhez
-        
-
-
+        keresesVonalkodAlapjan(raktar);
+        //HashSet mainbe
     }
     public static Map<String, OkosTV> ellenorzottBeolvasas(List<OkosTV> lista) {
         Scanner scanner = new Scanner(System.in);
@@ -100,4 +98,6 @@ public class RaktarTeszt {
             System.out.println("Hiba! Nincs ilyen vonalkódú TV a raktárban.");
         }
     }
+    //HashSet metodus ide
+    
 }
