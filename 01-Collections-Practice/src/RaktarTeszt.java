@@ -100,6 +100,9 @@ public class RaktarTeszt {
     }
     //HashSet metodus ide
     //Set!
+    //HasSet LinkedList
+
     
+
 
 }
