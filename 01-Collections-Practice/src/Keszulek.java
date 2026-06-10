@@ -19,3 +19,5 @@ public abstract class Keszulek {
                 return "Gyártó: " + getGyarto() + " Ára: " + getAr() + " Forint";
         }
 }
+
+//HashSet

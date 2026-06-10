@@ -15,3 +15,8 @@ public class OkosTV extends Keszulek {
             return super.toString() + " Képátló: " + getKepatlo() + " cm";
         }
 }
+
+
+//HashSet
+
+//Kesz
