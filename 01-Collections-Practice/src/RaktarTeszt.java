@@ -12,6 +12,8 @@ public class RaktarTeszt {
         System.out.println(legdragabb);
         keresesVonalkodAlapjan(raktar);
         //HashSet mainbe
+        System.out.println("Rendszer!");
+
     }
     public static Map<String, OkosTV> ellenorzottBeolvasas(List<OkosTV> lista) {
         Scanner scanner = new Scanner(System.in);
@@ -100,6 +102,5 @@ public class RaktarTeszt {
     }
 }
 
-//HashSet
 
-
+//HashSet beletenni
