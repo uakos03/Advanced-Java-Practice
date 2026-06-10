@@ -98,11 +98,6 @@ public class RaktarTeszt {
             System.out.println("Hiba! Nincs ilyen vonalkódú TV a raktárban.");
         }
     }
-    //HashSet metodus ide
-    //Set!
-    //HasSet LinkedList
-
-    
-
-
 }
+
+
